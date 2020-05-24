@@ -1,0 +1,97 @@
+import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import InnerHeader from '../../components/InnerHeader';
+import api from '../../services/api';
+import './styles.scss';
+export default function Login({ history }) {
+  const [wronglogin, setWronglogin] = useState(false);
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  async function handleSubmit(e) {
+    e.preventDefault();
+    await api
+      .post('/sessions', { email, password })
+      .then((response) => {
+        console.log('usuario foi autenticado!');
+        setEmail('');
+        setPassword('');
+        localStorage.setItem('_id', response.data._id);
+        history.push('/BUZZ/profile');
+      })
+      .catch(function (error) {
+        if (error.response) {
+          setWronglogin(true);
+          console.log(error.response.data);
+          console.log(error.response.status);
+          console.log(error.response.headers);
+          setEmail('');
+          setPassword('');
+        }
+      });
+  }
+  useEffect(() => {
+    if (localStorage.getItem('_id')) {
+      history.push('/BUZZ/profile');
+    }
+  }, [history]);
+  return (
+    <section id="login">
+      <InnerHeader />
+      <div className="box-form">
+        <div className="box-content">
+          <div className="form-title">
+            <h1>Olá! Digite o seu e-mail e senha</h1>
+          </div>
+          <form onSubmit={handleSubmit}>
+            <div className="form-element">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Seu email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                required
+              />
+            </div>
+            <div className="form-element">
+              <input
+                type="password"
+                name="password"
+                id="password"
+                minLength="6"
+                placeholder="Sua senha"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+              <div className="form-warning">
+                
+                {wronglogin ? (
+                  <span style={{ color: 'red', fontSize: 11 }}>
+                    usuário ou senha incorretos, tente novamente.
+                  </span>
+                ) : null}
+              </div>
+
+              <button type="submit">Entrar</button>
+            </div>
+          </form>
+        </div>
+        <div className="box-signup">
+          <span>
+            Novo no Buzz?
+            <Link to="/BUZZ/register">
+              
+              <u>Cadastre-se</u>
+            </Link>
+          </span>
+        </div>
+      </div>
+      <div className="box-help">
+        <div className="help-element">Esqueceu sua senha?</div>
+        <div className="help-element">Ajuda</div>
+      </div>
+    </section>
+  );
+}

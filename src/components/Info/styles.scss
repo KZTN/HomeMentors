@@ -1,0 +1,51 @@
+section#info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#info .box-info {
+  margin: 50px auto;
+  width: 75%;
+  text-align: left;
+}
+
+section#info .box-info .box-header h1 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+section#info .box-info .box-header strong {
+  font-weight: 900;
+}
+
+section#info .box-info .box-text {
+  color: #fff;
+  padding-top: 25px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+section#info .box-info .box-moreinfo {
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+
+  margin-top: 40px;
+  padding: 1.5rem;
+  width: 150px;
+  background: #222;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+}
+
+section#info .box-info .box-moreinfo span {
+  color: #fff;
+  font-size: 18px;
+}

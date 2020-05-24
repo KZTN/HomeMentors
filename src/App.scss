@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 30px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#app main {
+  margin-left: 30px;
+}
+
+html {
+  background: #3094d7;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+body,
+input,
+button {
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 240px);
+}
+
+@media (max-width: 650px) {
+  #app {
+    flex-direction: column;
+  }
+  #app main {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+  #app aside {
+    width: 100%;
+  }
+}
