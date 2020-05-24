@@ -6,7 +6,7 @@ export default function Innerheader() {
   return (
     <header className="innerheader">
       <div className="box-logo">
-        <Link to="/BUZZ">
+        <Link to="/">
           <h3>HomeMentors</h3>
         </Link>
       </div>
