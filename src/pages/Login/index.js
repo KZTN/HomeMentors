@@ -16,14 +16,13 @@ export default function Login({ history }) {
         setEmail('');
         setPassword('');
         localStorage.setItem('_id', response.data._id);
-        history.push('/BUZZ/profile');
+        history.push('/profile');
       })
       .catch(function (error) {
         if (error.response) {
           setWronglogin(true);
           console.log(error.response.data);
           console.log(error.response.status);
-          console.log(error.response.headers);
           setEmail('');
           setPassword('');
         }
@@ -31,7 +30,7 @@ export default function Login({ history }) {
   }
   useEffect(() => {
     if (localStorage.getItem('_id')) {
-      history.push('/BUZZ/profile');
+      history.push('/profile');
     }
   }, [history]);
   return (
@@ -80,8 +79,8 @@ export default function Login({ history }) {
         </div>
         <div className="box-signup">
           <span>
-            Novo no Buzz?
-            <Link to="/BUZZ/register">
+            Novo no HomeMentors?
+            <Link to="/register">
               
               <u>Cadastre-se</u>
             </Link>
