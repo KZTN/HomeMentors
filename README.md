@@ -65,6 +65,11 @@ Navegando até a pasta do projeto:
 ```
 cd HomeMentors
 ```
+Crie um arquivo `.env` na raíz do projeto e adicione as seguintes linhas:
+
+```bash
+REACT_APP_API_URL= https://homementors-server.herokuapp.com
+```
 
 Baixando as dependências do projeto:
 
