@@ -7,16 +7,16 @@
     Plataforma de ajuda&mentoria Home Office
 </h4>
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hackingrio/educacao-2020-homementors.svg">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/KZTN/HomeMentors.svg">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/hackingrio/educacao-2020-homementors.svg">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/KZTN/HomeMentors.svg">
   
-  <a href="https://github.com/hackingrio/educacao-2020-homementors.svg/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hackingrio/educacao-2020-homementors.svg.svg">
+  <a href="https://github.com/KZTN/HomeMentors/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KZTN/HomeMentors.svg">
   </a>
 
   <a href="https://github.com/hackingrio/educacao-2020-homementors.svg">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/hackingrio/educacao-2020-homementors.svg.svg">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/KZTN/HomeMentors.svg">
   </a>
 
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
@@ -56,13 +56,13 @@ git
 Clonando o projeto:
 
 ```
-git clone https://github.com/hackingrio/educacao-2020-homementors.git
+git clone https://github.com/KZTN/HomeMentors.git
 ```
 
 Navegando até a pasta do projeto:
 
 ```
-cd educacao-2020-homementors
+cd HomeMentors
 ```
 
 Baixando as dependências do projeto:
@@ -96,8 +96,8 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 <table align="center">
   <tr >
-    <td align="center"><a href="https://github.com/KZTN"><img src="https://avatars0.githubusercontent.com/u/6463299?s=460&u=4461e9ccc7bb327fc8183a09c3da015c832924d6&v=4" width="100px;" alt=""/><br /><sub><b>Kaio César</b></sub></a><br /><a href="https://github.com/hackingrio/educacao-2020-homementors?author=kztn" title="Code">💻</a> <a href="#kztn" title="Design">🎨</a></td>
-        <td align="center"><a href="https://github.com/CamilleGM"><img src="https://avatars0.githubusercontent.com/u/65857491?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Camille</b></sub></a><br /><a href="https://github.com/hackingrio/educacao-2020-homementors/commits?author=CamilleGM" title="Docs">📄</a> <a href="#CamilleGM" title="Design">🎨</a></td>
+    <td align="center"><a href="https://github.com/KZTN"><img src="https://avatars0.githubusercontent.com/u/6463299?s=460&u=4461e9ccc7bb327fc8183a09c3da015c832924d6&v=4" width="100px;" alt=""/><br /><sub><b>Kaio César</b></sub></a><br /><a href="https://github.com/KZTN/HomeMentors?author=kztn" title="Code">💻</a> <a href="#kztn" title="Design">🎨</a></td>
+        <td align="center"><a href="https://github.com/CamilleGM"><img src="https://avatars0.githubusercontent.com/u/65857491?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Camille</b></sub></a><br /><a href="https://github.com/KZTN/HomeMentors/commits?author=CamilleGM" title="Docs">📄</a> <a href="#CamilleGM" title="Design">🎨</a></td>
   <tr>
 </table>
 
