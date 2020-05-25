@@ -26,6 +26,7 @@
 </p>
 
 ## :warning: Atenção
+Este é um projeto com a iniciativa do Hackhathon HackingHelp, esta é em si uma versão protótipo. Todo o MVP foi concluído e está pronto para produção.
 
 > Essa é uma versão inicial do README, futuros tópicos e pontos serão colocados assim que novos conteudos forem desenvolvidos.
 
