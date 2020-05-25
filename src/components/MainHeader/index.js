@@ -20,13 +20,15 @@ export default function Header() {
           </Link>
         </div>
         <div className="box">
-          <Link to="/mentors">
+          <Link to="/dashboard">
             <span>Busque um Mentor</span>
           </Link>
         </div>
-        <div className="box">
-          <span>Ajude o próximo</span>
-        </div>
+        <Link to="/thread">
+          <div className="box">
+            <span>Faça uma pergunta</span>
+          </div>
+        </Link>
         <Link to="/about">
           <div className="box">
             <span>Sobre</span>

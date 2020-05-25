@@ -1,0 +1,63 @@
+section#thread {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+section#thread .content {
+  margin: 40px auto 0 auto;
+  width: 1000px;
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+section#thread .content .box-form {
+  margin: 0 auto;
+  width: 650px;
+}
+section#thread .content .box-form form .form-section {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.2rem;
+  box-shadow: 0 0.0625rem 0.125rem 0 rgba(0, 0, 0, 0.15);
+
+  display: flex;
+  flex-direction: column;
+}
+section#thread .content .box-form form * {
+  margin-bottom: 10px;
+}
+section#thread .content .box-form form input {
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+section#thread .content .box-form button {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-weight: bold;
+  font-size: 20px;
+  background: #222;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 0;
+  padding: 1rem 1.5rem;
+  margin-right: 100px;
+  margin-top: 30px;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+}
+section#thread .content .box-form form textarea {
+  height: 200px;
+  resize: none;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  color: #000;
+}

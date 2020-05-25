@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import InnerHeader from '../../components/InnerHeader';
 import api from '../../services/api';
 import './styles.scss';
-export default function Login({ history }) {
+export default function MentorLogin({ history }) {
   const [wronglogin, setWronglogin] = useState(false);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -17,7 +17,7 @@ export default function Login({ history }) {
         setPassword('');
         console.log('o id do usuario é' + response.data)
         localStorage.setItem('_id', response.data);
-        history.push('/profile');
+        history.push('/mentorboard');
       })
       .catch(function (error) {
         if (error.response) {
@@ -31,7 +31,7 @@ export default function Login({ history }) {
   }
   useEffect(() => {
     if (localStorage.getItem('_id')) {
-      history.push('/profile');
+      history.push('/mentorboard');
     }
   }, [history]);
   return (
@@ -80,16 +80,9 @@ export default function Login({ history }) {
         </div>
         <div className="box-signup">
           <span>
-            Novo no HomeMentors?
-            <Link to="/register">           
-              <u>Cadastre-se</u>
-            </Link>
+            Área administrativa de mentores
           </span>
         </div>
-      </div>
-      <div className="box-help">
-        <div className="help-element">Esqueceu sua senha?</div>
-        <div className="help-element">Ajuda</div>
       </div>
     </section>
   );

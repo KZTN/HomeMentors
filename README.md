@@ -1,68 +1,106 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+    <img alt="HomeMentors" title="#app" src=".github/Buzz-logo.svg" width="250px" />
+</p>
+    <h1 align="center">HomeMentors</h1>
 
-## Available Scripts
+<h4 align="center">
+    Plataforma de ajuda&mentoria Home Office
+</h4>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/hackingrio/educacao-2020-homementors.svg">
 
-In the project directory, you can run:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/hackingrio/educacao-2020-homementors.svg">
+  
+  <a href="https://github.com/hackingrio/educacao-2020-homementors.svg/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/hackingrio/educacao-2020-homementors.svg.svg">
+  </a>
 
-### `yarn start`
+  <a href="https://github.com/hackingrio/educacao-2020-homementors.svg">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/hackingrio/educacao-2020-homementors.svg.svg">
+  </a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+<p align="center">
+  <img alt="HOmeMentors" src=".github/HomeMentors.svg" width="100%">
+</p>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## :warning: Atenção
 
-### `yarn test`
+> Essa é uma versão inicial do README, futuros tópicos e pontos serão colocados assim que novos conteudos forem desenvolvidos.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :computer: Projeto
 
-### `yarn build`
+HomeMentors é um sistema de mentoria de profissionais de Home Office que estejam atrás de melhorar suas habilidades no setor de vendas e garantir espaço no mercado competidor de comércio online
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :thinking: Motivo
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Diante da dificuldade em que setores de bens e serviços se encontram para conseguir manter suas vendas enfrentadas pela paralisação de suas antividades devido a quarentena, muitas empresas estão articulando seu comércio para que não venham a falir ou fechar suas portas. Uma dessas alternativas de negócio que surge e hoje está em alta é a prática do Home Office. Mas o muitas pessoas enfrentam o problema de não possuirem prática ou habilidades que o impulsionem a competir no nicho de mercado.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Começando...
 
-### `yarn eject`
+Essas instruções fornecerão uma cópia do projeto em execução na sua máquina local para fins de desenvolvimento e teste.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Pré-requisitos
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+O que você precisa para instalar o software:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+node v12.x
+yarn 1.22.4
+git
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Instalando o projeto 🚀
 
-## Learn More
+Clonando o projeto:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+git clone https://github.com/hackingrio/educacao-2020-homementors.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Navegando até a pasta do projeto:
 
-### Code Splitting
+```
+cd educacao-2020-homementors
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+Baixando as dependências do projeto:
 
-### Analyzing the Bundle Size
+```bash
+yarn install
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Rodando o projeto:
 
-### Making a Progressive Web App
+```bash
+yarn start
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Visite http://localhost:3000 com o seu navegador para ver o resultado. 🎉
 
-### Advanced Configuration
+## Como contribuir
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-### Deployment
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## :memo: Licença
 
-### `yarn build` fails to minify
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Autores
+
+<table align="center">
+  <tr >
+    <td align="center"><a href="https://github.com/KZTN"><img src="https://avatars0.githubusercontent.com/u/6463299?s=460&u=4461e9ccc7bb327fc8183a09c3da015c832924d6&v=4" width="100px;" alt=""/><br /><sub><b>Kaio César</b></sub></a><br /><a href="https://github.com/hackingrio/educacao-2020-homementors?author=kztn" title="Code">💻</a> <a href="#kztn" title="Design">🎨</a></td>
+        <td align="center"><a href="https://github.com/CamilleGM"><img src="https://avatars0.githubusercontent.com/u/65857491?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Camille</b></sub></a><br /><a href="https://github.com/hackingrio/educacao-2020-homementors/commits?author=CamilleGM" title="Docs">📄</a> <a href="#CamilleGM" title="Design">🎨</a></td>
+  <tr>
+</table>
+
+##
+
+<p align="center">Feito com ♥</p>
