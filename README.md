@@ -26,6 +26,7 @@
 </p>
 
 ## :warning: Atenção
+Este é um projeto com a iniciativa do Hackhathon <a href="https://hackingrio.com/hackinghelp/">HACKING+HELP</a>, esta é em si uma versão protótipo. Todo o MVP foi concluído e está pronto para produção.
 
 > Essa é uma versão inicial do README, futuros tópicos e pontos serão colocados assim que novos conteudos forem desenvolvidos.
 
@@ -63,6 +64,11 @@ Navegando até a pasta do projeto:
 
 ```
 cd HomeMentors
+```
+Crie um arquivo `.env` na raíz do projeto e adicione as seguintes linhas:
+
+```bash
+REACT_APP_API_URL= https://homementors-server.herokuapp.com
 ```
 
 Baixando as dependências do projeto:
