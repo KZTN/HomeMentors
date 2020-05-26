@@ -18,7 +18,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 <p align="center">
-  <img alt="HomeMentors" src=".github/HomeMentors_screen.png" width="50%">
+  <img alt="HomeMentors" src=".github/HomeMentors_screen.png" width="80%">
 </p>
 
 ## :warning: Atenção
