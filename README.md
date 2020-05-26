@@ -1,8 +1,7 @@
 
 <p align="center">
-    <img alt="HomeMentors" title="#app" src=".github/HomeMentors.svg" width="250px" />
+    <img alt="HomeMentors" title="#app" src=".github/HomeMentors.svg" width="650px" />
 </p>
-    <h1 align="center">HomeMentors</h1>
 
 <h4 align="center">
     Plataforma de ajuda&mentoria Home Office
