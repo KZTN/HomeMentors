@@ -1,5 +1,6 @@
+
 <p align="center">
-    <img alt="HomeMentors" title="#app" src=".github/Buzz-logo.svg" width="250px" />
+    <img alt="HomeMentors" title="#app" src=".github/HomeMentors.svg" width="250px" />
 </p>
     <h1 align="center">HomeMentors</h1>
 
@@ -8,21 +9,11 @@
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/KZTN/HomeMentors.svg">
-
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/KZTN/HomeMentors.svg">
-  
-  <a href="https://github.com/KZTN/HomeMentors/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/KZTN/HomeMentors.svg">
-  </a>
-
-  <a href="https://github.com/hackingrio/educacao-2020-homementors.svg">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/KZTN/HomeMentors.svg">
-  </a>
-
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 <p align="center">
-  <img alt="HOmeMentors" src=".github/HomeMentors.svg" width="100%">
+  <img alt="HomeMentors" src=".github/HomeMentors_screen.png" width="50%">
 </p>
 
 ## :warning: Atenção
